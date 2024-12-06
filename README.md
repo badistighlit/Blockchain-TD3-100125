@@ -32,7 +32,9 @@ The tasks are structured to evaluate your ability to:
     - Current chain ID.
     - Last block number.
     - Latest block hash.
+    - Gas used.
     - Gas price.
+    - Burnt Fees.
 
 #### 3. **Add a Connect Button** (3 pts)
 
@@ -43,8 +45,8 @@ The tasks are structured to evaluate your ability to:
 
 #### 4. **Handle Chain Errors** (2 pts)
 
-- Display an error page if the user is connected to a chain other than Ethereum Mainnet or a specified testnet (e.g., Sepolia).
-- Redirect the user to this error page when a chain switch is detected.
+- Display an error if the user is connected to a chain other than Ethereum Mainnet or a specified testnet (e.g., Sepolia).
+- Add button to switch chain to Ethereum Mainnet or a specified testnet (e.g., Sepolia)
 
 ---
 
