@@ -61,7 +61,7 @@ The tasks are structured to evaluate your ability to:
 - Retrieve data using the SQD Indexer for:
   - Token transfers (e.g., sender, recipient, amount, and block number).
   - Token balances for a specific address.
-  - Metrics (e.g., total transfers, number of wallets that have interacted with the token).
+  - Metrics (e.g., total transfers, number of holders).
 
 #### 3. **Create a Data Page** (3 pts)
 
