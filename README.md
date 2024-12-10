@@ -59,7 +59,7 @@ The tasks are structured to evaluate your ability to:
 #### 2. **Retrieve Indexer Data** (4 pts)
 
 - Retrieve data using the SQD Indexer for:
-  - Token transfers (e.g., sender, recipient, amount, and block number).
+  - Token Informations (e.g., symbol, name, decimals & total supply).
   - Token balances for a specific address.
   - Metrics (e.g., total transfers, number of holders).
 
@@ -67,7 +67,6 @@ The tasks are structured to evaluate your ability to:
 
 - Create a `/token-data` page that:
   - Displays token-related information (e.g., Symbol, Name, Decimals, Total Supply).
-  - Shows token transfer history for a selected address.
   - Displays token balances for a selected address.
   - Includes token metrics in the token information section.
 
@@ -86,12 +85,6 @@ The tasks are structured to evaluate your ability to:
   - Ensure the recipient address is valid.
   - Display a clear error message if the transaction fails.
 - Show a confirmation message with the transaction hash upon success.
-
-#### 2. **Transaction History** (3 pts)
-
-- Update the `/indexer` page to include a section for:
-  - Displaying recent transactions sent by the connected address.
-  - Including transaction status (success/fail), recipient, and amount.
 
 ---
 
@@ -118,10 +111,10 @@ The tasks are structured to evaluate your ability to:
 | ------------------------------ | ---------- |
 | Part 1: Connecting to Ethereum | 9 pts      |
 | Part 2: Integrating with SQD   | 9 pts      |
-| Part 3: Sending Transactions   | 7 pts      |
+| Part 3: Sending Transactions   | 4 pts      |
 | Bonus Tasks                    | 3 pts      |
-| **Total**                      | **28 pts** |
+| **Total**                      | **25 pts** |
 
 ---
 
-Note: The final score for students is calculated out of 25 points, with additional bonus points available to exceed this total.
+Note: The final score for students is calculated out of 22 points, with additional bonus points available to exceed this total.
