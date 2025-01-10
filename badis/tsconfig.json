@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+      "target": "es5",  // Tu peux garder 'es5' si tu veux une compatibilité large avec les anciens navigateurs.
+      "lib": ["dom", "esnext"],
+      "allowJs": true,
+      "skipLibCheck": true,
+      "esModuleInterop": true,
+      "strict": true,
+      "jsx": "react-jsx",
+      "moduleResolution": "node",
+      "module": "esnext",
+      "outDir": "./dist",
+      "experimentalDecorators": true,  // Active les décorateurs
+      "emitDecoratorMetadata": true  // Fournit les métadonnées pour les décorateurs
+    },
+    "include": [
+        "src/**/*.ts"
+      ],
+    "exclude": ["node_modules"]
+  }
+  
